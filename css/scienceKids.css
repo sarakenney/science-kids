@@ -1,0 +1,34 @@
+.lato {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.margin20 {
+	margin:20px;
+}
+
+.margin30 {
+	margin:30px;
+}
+
+
+.logoMain {
+	width:300px;
+}
+
+.target {
+	font-weight: 700;
+	font-size:24px;
+	width:300px;
+	background-color: white;
+	color:#2c3e50;
+	border-radius: 50px;
+}
+
+#enterButton {
+	font-weight: 700;
+	font-size:24px;
+	width:300px;
+	background-color: #FFE74C;
+	color:#2c3e50;
+	border-radius: 50px;
+}
