@@ -384,6 +384,20 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+
+    <script>
+        $('.helper').hide();
+        $('#enterButton').hide();
+        $( ".target" ).change(function() {
+          var targetValue = $(this).val();
+          if (targetValue === 'yes') {
+            $ ('#enterButton').show('slow');
+            $('#enterButton').prop('disabled', false);  
+          } else if (targetValue === 'no') {
+            $('.helper').show('slow');
+          }
+        });
+    </script>
 </body>
 
 </html>
